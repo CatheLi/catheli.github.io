@@ -7,3 +7,4 @@ https://github.com/CatheLi/Mari-saavedra.github.io
 
 ## segundo fork forked from Gealuque/Gealuque.github.io
 https://github.com/CatheLi/Gealuque.github.io
+[segundo fork](./colaborativo/segundo.png)
