@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--conectando con BS-->
+    <link rel="stylesheet" href="assets/css/style.css"> <!--conectando con mis estilos-->
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/favicon/Bellota-icon.png"> <!--ícono personal de la página-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div><!--comienzo del navegador-->
+        <nav class="navbar navbar-expand-lg navbar-custom-bg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CATHE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobremi">SOBRE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#curriculum">CURRICULUM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div><!--fin del navegador-->
+    <!--Comienzo INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="assets/imgs/miImagen.png" alt="Cathe Lillo">
+            </div>
+            <h1>CATHE LILLO</h1>
+            <h2>MBA e Ingeniero Civil Electrónico<br>Agile Delivery Lead</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--Fin INICIO-->
+    <!--Comienzo SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Estoy comprometida con la formación de un equipo altamente alineado con la estrategia de la organización,
+                que ejecuten su labor con un rendimiento óptimo y sean capaces de responder de manera ágil y eficiente a
+                las necesidades del negocio.<br>
+                Mi enfoque se centra en asegurar que el equipo no solo entregue productos funcionales, sino que también
+                agreguen valor significativo a los clientes y usuarios internos.<br>
+                La agilidad la considero una herramienta clave para alcanzar los objetivos propuestos por lo que
+                selecciono los métodos y prácticas más adecuadas para guiar al equipo hacia la entrega de productos de
+                alta calidad de manera continua.<br>
+                Esto me ha permitido entregar valor a las organizaciones de manera temprana, iterar y mejorar
+                continuamente hasta alcanzar un producto que maximice el valor entregado.</p>
+            <div class="container">
+                <div row justify-content-center>
+                    <!--Columnas de datos personales-->
+                    <div class="fila">
+                        <div class="col-12 col-md-12 mb-4 d-flex justify-content-center">
+                            <!--col-12 disp pequeño; md-6 cada columna ocupa 6 espacios de 12 para mostrar 2 columnas por fila; mb-4 agrega margen inferior para tener espacio entre filas-->
+                            <div class="col">
+                                <h3>Datos Personales</h3>
+                                <ul>
+                                    <li><strong>Cumpleaños:</strong>18-11-1983</li>
+                                    <li><strong>Teléfono:</strong>+56 9 5333 3676</li>
+                                    <li><strong>Email:</strong>cathe.lillo@gmail.com</li>
+                                    <li><strong>Dirección:</strong>Santa Rosa 146, Santiago, Chile</li>
+                                </ul>
+                            </div>
+                            <!--columna intereses-->
+                            <div class="col">
+                                <h3>Intereses</h3>
+                                <div class="contenedor-intereses">
+                                    <!--iconos de intereses-->
+                                    <div class="interes">
+                                        <i class="fa-solid fa-gamepad"></i>
+                                        <span>JUEGOS</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-podcast"></i>
+                                        <span>PODCAST</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-headphones"></i>
+                                        <span>MÚSICA</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-tv"></i>
+                                        <span>PELIS SERIES</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-book"></i>
+                                        <span>LECTURA</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-plane"></i>
+                                        <span>VIAJAR</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-brands fa-apple"></i>
+                                        <span>APPLE</span>
+                                    </div>
+                                    <div class="interes">
+                                        <i class="fa-solid fa-people-roof"></i>
+                                        <span>FAMILIA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!--Fin SOBRE MI-->
+    <!--Comienzo SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Skills técnicos-->
+                <div class="col">
+                    <h3>Skills Técnicos</h3>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Boostrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git y Git Hub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Skills Profesionales-->
+                <div class="col">
+                    <h3>Skills Profesionales</h3>
+                    <div class="skill">
+                        <span>Scrum</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kanban</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Scale Agile</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo de Equipos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin SKILLS-->
+    <!--Comienzo CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>MBA</h4>
+                        <span class="casa">P. Universidad Católica de Valparaíso</span>
+                        <span class="fecha">Mar 2014 - Dic 2014</span>
+                        <p>Programa Full Time Intensive que permitió desarrollar habilidades en liderazgo, gestión estratégica, finanzas, marketing y operaciones, con enfoque en la toma de decisiones empresariales y el desarrollo de habilidades directivas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniero Civil Electrónico</h4>
+                        <span class="casa">P. Universidad Católica de Valparaíso</span>
+                        <span class="fecha">Mar 2003 - Dic 2009</span>
+                        <p>Formación en ingeniería civil electrónica con enfoque en telecomunicaciones, cubriendo temas como teoría de señales, sistemas de comunicación, redes y tecnologías de la información y la comunicación</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diplomado en Transformación Digital</h4>
+                        <span class="casa">Universidad del desarrollo</span>
+                        <span class="fecha">Jun 2020 - Dic 2020</span>
+                        <p>Programa especializado para transformar negocios y organizaciones, abarcando temas como innovación digital, estrategia de transformación, liderazgo digital, gestión del cambio, Inteligencia Artificial, Blockchain, Internet de las Cosas (IoT), Analytics, para impulsar la innovación y la competitividad empresarial</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Agile Delivery Lead</h4>
+                        <span class="casa">Smartycar</span>
+                        <span class="fecha">Abr 2024 - A la fecha</span>
+                        <p>Liderar la transformación ágil en la organización, impulsando una mentalidad adaptativa y colaborativa, y mejorando la eficiencia y productividad a través de la implementación de técnicas ágiles, métricas de desempeño y estrategias de equipo de alto rendimiento.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Product Owner-Product Manager</h4>
+                        <span class="casa">Derco-Inchcape</span>
+                        <span class="fecha">Ene 2023 - Abr 2024</span>
+                        <p>Dirigir equipos para crear y desplegar productos de Data Science que satisficieran las necesidades del negocio, definiendo requisitos, estableciendo roadmaps y comunicando la visión del producto a todas las partes interesadas, y tomando decisiones informadas basadas en análisis de datos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Team Agile Coach</h4>
+                        <span class="casa">Derco</span>
+                        <span class="fecha">Ene 2022 - Dic 2022</span>
+                        <p>Liderar la transformación ágil en la organización, impulsando una mentalidad adaptativa y colaborativa, y mejorando la eficiencia y productividad a través de la implementación de técnicas ágiles, métricas de desempeño y estrategias de equipo de alto rendimiento.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin CURRICULUM-->
+
+    <!--comienzo de la galeria-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--comienzo card 1-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <!--col-12 disp pequeño; md-4 cada columna ocupa 4 espacios de 12 para mostrar 3 columnas por fila; mb-4 agrega margen inferior para tener espacio entre filas-->
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/1-mi-cv-html.jpeg" class="card-img-top" alt="CV con HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">CV con HTML</h5>
+                        <a href="https://github.com/CatheLi/desafio1">Link GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 1-->
+            <!--comienzo card 2-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/2-landing-page-css.jpeg" class="card-img-top" alt="Landing Page con CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">Landing Page con CSS</h5>
+                        <a href="https://github.com/CatheLi/desafio2">Link a GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 2-->
+
+            <!--comienzo card 3-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/3-iguana-page-flexbox.jpeg" class="card-img-top" alt="Iguana Page con FlexBox">
+                    <div class="card-body">
+                        <h5 class="card-title">Iguana Page con FlexBox</h5>
+                        <a href="https://github.com/CatheLi/desafio3">Link a GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 3-->
+            <!--comienzo card 4-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/4-web-page-boostrap.jpeg" class="card-img-top" alt="Web Page con Boostrap">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Page con Boostrap</h5>
+                        <a href="https://github.com/CatheLi/desafio4">Link a GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 4-->
+            <!--comienzo card 5-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/5-terminal-git-github.jpeg" class="card-img-top" alt="Terminal, Git y GitHub">
+                    <div class="card-body">
+                        <h5 class="card-title">"Terminal, Git y GitHub</h5>
+                        <a href="https://github.com/CatheLi/desafio5">Link a GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 5-->
+            <!--comienzo card 6-->
+            <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/imgs/6-cv-y-portfolio.jpeg" class="card-img-top" alt="CV y Portfolio HTML-CSS">
+                    <div class="card-body">
+                        <h5 class="card-title">CV y Portfolio HTML-CSS</h5>
+                        <a href="https://github.com/CatheLi/catheli.github.io">Link a GitHub</a>
+                    </div>
+                </div>
+            </div> <!--fin card 6-->
+        </div>
+    </div> <!--fin de la galería-->
+    <section id="contacto" class="contacto"><!--comienzo formulario-->
+        <form class="form-custom-bg">
+            <legend>CONTACTO</legend>
+            <div class="mb-3">
+                <input class="form-control" type="text" placeholder="Tú Nombre" aria-label="input example">
+            </div>
+            <div class="mb-3">
+                <input class="form-control" type="email" placeholder="Tú Correo Electrónico" aria-label="input example">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-light custom-btn">Enviar</button>
+            </div>
+        </form>
+    </section><!--fin formulario-->
+    <footer class="footer-custom">
+        <div class="container text-center">
+            <img src="assets/favicon/Bellota-icon.png" alt="Logo" class="footer-logo">
+            <p class="footer-text">@CatheLillo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
